@@ -3,6 +3,8 @@
 <head>
     <meta charset = "UTF-8"> 
     <title>Art Portfolio</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Lemonada&display=swap" rel="stylesheet">
 <style>
     * {margin:0 ;
         padding:0;
@@ -10,28 +12,67 @@
         }
 
     h1 {
-        color:#f3d948fb;
-
+        color:rgb(100, 17, 107);
+        font-family: 'Lemonada', cursive;
         text-align: center;
         margin: 25px 50px 75px 100px;
+        background-color: rgba(35, 228, 228, 0.7);
+        border-radius: 10px;
         
     }
-
-    body {
-        background-color: rgb(219, 204, 243);
+    #headtext{
+        background-color: rgba(255, 255, 255, 0.7);
+        color:rgb(100, 17, 107);
+        border-radius: 10px;
+        margin: 25px 50px 75px 100px;
+        font-family: 'Lemonada', cursive;
+        text-align: center;
+    }
+    .textbox{
+        padding-top: 50px;
+        padding-bottom: 50px;
+        padding-left: 25%;
+        padding-right: 25%; 
+        background-color: rgba(255, 255, 255, 0.7);
+        color:rgb(100, 17, 107);
+        border-radius: 10px;
+        margin: 25px 50px 75px 100px;
+        font-family: 'Lemonada', cursive;
+    }
+    div {
         background-image:url("artportfolio_background.png");
         background-repeat:no-repeat;
         background-size:100%;
         background-attachment: fixed;
-        
+        padding-bottom: 50px;
+        padding-top: 50px;
+    
+        margin-left: 12%;
+        margin-right: 10%;
+    }
+    body {
+        background-color: rgb(115, 41, 233);
+        background-image: linear-gradient(rgb(197, 148, 221), rgb(250, 165, 8));
         
         }
     img {
         width: 30%;
         margin: 25px 50px 75px 175px;
         border-style: double;
-        border-color: rgb(167, 80, 189);
+        border-color: rgb(84, 70, 145);
         border-width: 5px;
+        border-radius: 10px;
+    }
+    #foot {
+        background-color: rgb(240, 78, 14);
+        color:rgb(249, 251, 252); 
+        text-align: center;
+        font-family:'Lemonada', cursive;
+        border-radius: 10px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        
+        
     }
     @media screen and (max-width: 900px){
 
@@ -43,22 +84,41 @@
     img {
         border-color: rgb(252, 227, 6);
     }
+    
+   
 
     }
+
    
 </style>
 </head>
 <body>
-
+<div>
 <h1>Emily's Art Portfolio</h1>
+<p id="headtext">Hello! Welcome to my art portfolio. I hope you will enjoy my art! Thank you for looking!</p>
+</div>
+
 <img src="artwork_2.png" alt="park drawing">
 <img src="artwork_1.png" alt="landscape drawing"> 
+<section class="textbox"> 
+<p> This series is about landscape drawings. The materials that I used for these images was a fine tip brush pen on sketching paper. The image on the left is inspired from a small park in east L.A. and the second drawing is based on some houses near the small park. Both images were done in the year 2020, at the beginning of COVID-19 happened. My inspiration for these drawings came from the situation that we had to stay indoors when covid 19 was hapening. The small colored boxes are a represenation of looking thru a window. </p> 
+</section>
 <img src="artwork_4.jpg" alt="little tokyo drawing">
 <img src="artwork_5.jpg" alt="long beach drawing">
+<section class="textbox">
+    <p> These are drawings that I was drawing while visiting these places. The left drawing is based on Little Tokyo in Down Town L.A. abd the next drawing is based on Long Beach. A beach near the Aquarium of the Pacific. The materials that I used was a black ink brush pen and a watercolor paper.  </p> 
+</section>
 <img src="artwork_6.jpg" alt="Los Angeles drawing"> 
-<img src="artwork_7.jpg" alt="shape drawing"> 
+<img id="smaller" src="artwork_7.jpg" alt="shape drawing"> 
+<section class="textbox">
+    <p> The materials that I used for the picture on the left was a black brush pen and watercolor paper. I drew this because I thought that the building and palm tree looked intreasting. The picture on the right was done with acrylics and bristol paper.  </p> 
+</section>
+<img src="levi_Giraffe_colored.png" alt="Fanart">  
+<section class="textbox">
+<p> This illustartion is an example of how I draw with digital media. I mainly make digital art when doing fanart. The character is from a Japanese mobile game called "Obey Me!". This illustration was done on May 2021. The program that I used was Adobe Photoshop. </p>
+</section>
 <footer>
-<p>Designed by: Emily, 2021</p>
+<p id="foot">Designed by: Emily, 2021</p>
 </footer>
 
 </body>
